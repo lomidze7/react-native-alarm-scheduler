@@ -24,6 +24,7 @@
     "clean": "expo-module clean",
     "lint": "expo-module lint",
     "test": "expo-module test",
+    "test:plugin": "node --test test/*.test.js",
     "prepare": "expo-module prepare",
     "prepack": "node scripts/verify-silent-sound.mjs",
     "prepublishOnly": "expo-module prepublishOnly",
